@@ -1,0 +1,62 @@
+.bg-dark {
+    background-color:  #1a1aff !important;
+}
+
+.logo {
+    max-width: 35%;
+    max-height: 35%;
+    background-color: transparent;
+}
+
+.logo:hover {
+    transform: rotateY(180deg);
+    animation: rotation 7s infinite linear; 
+}
+
+@keyframes rotation {
+    100%{ transform:rotatey(1800deg) }
+}
+
+.navbar-nav a {
+  color: white;
+  margin: 0 14px;
+  font-size: 5vh;
+}
+
+.toggleOnHover:hover {
+    font-size: 0px;
+    transition: all 1s ease;
+}
+  
+.toggleOnHover:hover::after {
+    font-size: 21px;
+    font-weight: bold;
+    content: attr(data-hover);
+}
+
+.nav-item {
+    margin-bottom: 10px;
+}
+
+.nav-item {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav-item::after {
+    content: '';
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background: yellow;
+    transition: transform .9s ease;
+    transform: scaleX(0);
+}
+
+.nav-item:hover::after {
+    width: 100%;
+    transform: scaleX(1);
+
+}
