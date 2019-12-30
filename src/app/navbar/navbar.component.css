@@ -1,6 +1,6 @@
-.bg-dark {
-    background-color:  #1a1aff !important;
-}
+/* .navbar-dark {
+    background-color: transparent !important;
+} */
 
 .logo {
     max-width: 35%;
@@ -9,7 +9,6 @@
 }
 
 .logo:hover {
-    /* transform: rotateY(180deg); */
     animation: rotation 7s infinite linear; 
 }
 
@@ -18,9 +17,9 @@
 }
 
 .navbar-nav a {
-  color: #fff;
-  margin: 0 14px;
-  font-size: 5vh;
+    margin: 0 14px;
+    color: #fff;
+    font-size: 4vh;
 }
 
 .toggleOnHover:hover {
@@ -31,17 +30,14 @@
 .toggleOnHover:hover::after {
     font-size: 21px;
     color: #fff;
-    font-weight: bold;
     content: attr(data-hover);
 }
 
 .nav-item {
     margin-bottom: 10px;
-}
-
-.nav-item {
     display: inline-block;
     text-decoration: none;
+    font-family: 'Sriracha', cursive;
 }
 
 .nav-item::after {
@@ -51,7 +47,7 @@
     bottom: 0;
     width: 100%;
     height: 3px;
-    background: #000;
+    background: yellow;
     transition: transform .9s ease;
     transform: scaleX(0);
 }
