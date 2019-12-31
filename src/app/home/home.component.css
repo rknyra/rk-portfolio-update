@@ -25,6 +25,9 @@
 }
 
 .seeMore {
+	border-radius: 40px;
+	padding-right: 33px;
+	padding-left: 33px;
 	transition: all 0.2s;
 	border: #000;
   }
@@ -87,7 +90,7 @@
     display: block;
     list-style: none;
     width: 1px;
-	height: 20px;
+	height: 70px;
     background: linear-gradient(-45deg, yellow, #007bff);
     animation: animate 5s linear infinite;
     bottom: -250px;
@@ -113,7 +116,7 @@
     left: 14%;
     width: 1px;
     height: 133px;
-    animation-delay: 3s;
+    animation-delay: 10s;
 }
 
 .lines li:nth-child(4){
@@ -128,15 +131,15 @@
     left: 24%;
     width: 1px;
     height: 121px;
-	animation-delay: 12s;
-	animation-duration: 5s;
+	animation-delay: 14s;
+	animation-duration: 9s;
 }
 
 .lines li:nth-child(6){
     left: 28%;
     width: 1px;
     height: 77px;
-	animation-delay: 5s;
+	animation-delay: 17s;
 	animation-duration: 5s;
 }
 
@@ -144,15 +147,15 @@
     left: 33%;
     width: 1px;
     height: 133px;
-	animation-delay: 14s;
-	animation-duration: 5s;
+	animation-delay: 10s;
+	animation-duration: 2s;
 }
 
 .lines li:nth-child(8){
     left: 35%;
     width: 1px;
     height: 77px;
-    animation-delay: 7s;
+    animation-delay: 21s;
     animation-duration: 3s;
 }
 
@@ -161,7 +164,7 @@
     width: 1px;
     height: 144px;
     animation-delay: 12s;
-    animation-duration: 3s;
+    animation-duration: 7s;
 }
 
 .lines li:nth-child(10){
@@ -175,7 +178,7 @@
     left: 47%;
     width: 3px;
     height: 170px;
-    animation-delay: 14s;
+    animation-delay: 24s;
     animation-duration: 3s;
 }
 .lines li:nth-child(12){
@@ -183,14 +186,14 @@
     width: 1px;
     height: 77px;
     animation-delay: 2s;
-    animation-duration: 5s;
+    animation-duration: 8s;
 }
 .lines li:nth-child(13){
     left: 57%;
     width: 1px;
     height: 170px;
-    animation-delay: 12s;
-    animation-duration: 3s;
+    animation-delay: 14s;
+    animation-duration: 2s;
 }
 
 .lines li:nth-child(14){
@@ -204,7 +207,7 @@
     left: 65%;
     width: 1px;
     height: 120px;
-    animation-delay: 12s;
+    animation-delay: 24s;
     animation-duration: 3s;
 }
 .lines li:nth-child(16){
@@ -218,32 +221,32 @@
     left: 75%;
     width: 1px;
     height: 77px;
-    animation-delay: 14s;
+    animation-delay: 19s;
     animation-duration: 5s;
 }
 .lines li:nth-child(18){
-    left: 80%;
+    left: 82%;
     width: 1px;
     height: 150px;
-    animation-delay: 3s;
+    animation-delay: 11s;
     animation-duration: 3s;
 }
 .lines li:nth-child(19){
-    left: 84%;
+    left: 87%;
     width: 1px;
     height: 70px;
     animation-delay: 0s;
     animation-duration: 5s;
 }
 .lines li:nth-child(20){
-    left: 88%;
+    left: 92%;
     width: 1px;
     height: 77px;
     animation-delay: 1s;
     animation-duration: 2s;
 }
 .lines li:nth-child(21){
-    left: 92%;
+    left: 97%;
     width: 1px;
     height: 124px;
     animation-delay: 1s;
