@@ -20,40 +20,29 @@
     margin: 0 14px;
     color: #fff;
     font-size: 4vh;
-}
-
-.toggleOnHover:hover {
-    font-size: 0px;
-    transition: all 1s ease;
-}
-  
-.toggleOnHover:hover::after {
-    font-size: 21px;
-    color: #fff;
-    content: attr(data-hover);
-}
-
-.nav-item {
-    margin-bottom: 10px;
-    display: inline-block;
     text-decoration: none;
     font-family: 'Sriracha', cursive;
 }
 
-.nav-item::after {
-    content: '';
-    display: block;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 3px;
-    background: yellow;
-    transition: transform .9s ease;
-    transform: scaleX(0);
+.nav-item:hover .fas {
+    font-size: 0px;
+    transition: all 1s ease;
 }
 
-.nav-item:hover::after {
-    width: 100%;
-    transform: scaleX(1);
+.toggleOnHover:hover::after {
+    content: attr(data-hover);
+    font-size: 21px;
+     color: #333;
+}
 
+.toggleOnHover {
+    background-image: linear-gradient(yellow, yellow), linear-gradient(#007bff, #007bff);
+    background-size: 0 1px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .5s ease-out;
+}
+
+.toggleOnHover:hover {
+    background-size: 100% 1px, auto;
 }
