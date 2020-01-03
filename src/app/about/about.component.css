@@ -1,0 +1,35 @@
+.about {
+    background-color: #fff;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.abtImgs {
+background-color: black;
+}
+
+img {
+	width: 100%;
+	height: 100vh;
+}
+
+.abtContent {
+	margin-top: 2vh;
+	line-height: 1;
+	font-family: 'Sriracha', cursive;
+	font-size: 16px;
+}
+
+#bar-horzontal {
+	max-width: 100%;
+  }
+  #bar-horzontal div {
+	color: #fff;
+	padding: 3px 0 3px 5px;
+	box-sizing: border-box;
+	margin-bottom: 2vh;
+	border-radius: 50px;
+	background: linear-gradient(to left,  #003bff, #007bff);
+
+  }
