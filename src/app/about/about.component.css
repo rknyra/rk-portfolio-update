@@ -6,7 +6,7 @@
 }
 
 .abtImgs {
-background-color: black;
+padding: 0px;
 }
 
 img {
@@ -16,20 +16,28 @@ img {
 
 .abtContent {
 	margin-top: 2vh;
-	line-height: 1;
+	line-height: 1.5;
 	font-family: 'Sriracha', cursive;
 	font-size: 16px;
 }
 
-#bar-horzontal {
-	max-width: 100%;
-  }
-  #bar-horzontal div {
-	color: #fff;
-	padding: 3px 0 3px 5px;
-	box-sizing: border-box;
-	margin-bottom: 2vh;
-	border-radius: 50px;
-	background: linear-gradient(to left,  #003bff, #007bff);
+.skillSet {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 
-  }
+.card {
+	width: 7.5rem;
+	border: none;
+}
+.skillIcon {
+	max-width: 3rem;
+	max-height: 3rem;
+	align-self: center;
+}
+
+.card-body {
+	padding-top: 1rem;
+	text-align: center;
+}
