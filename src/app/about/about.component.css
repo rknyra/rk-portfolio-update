@@ -41,3 +41,37 @@ img {
 	padding-top: 1rem;
 	text-align: center;
 }
+
+.contactLink {
+	width: 200px;
+	border-radius: 75px;
+	margin-bottom: 2vh;
+	background-color: #007bff;
+	color: #fff;
+	position: relative;
+	transition: all .35s;
+}
+
+.contactLink span {
+	position: relative;
+	z-index: 2;
+}
+
+.contactLink::after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: yellow;
+	border-radius: 75px;
+	transition: all .3s ease-in-out;
+}
+
+.contactLink:hover {
+	color: black;
+}
+.contactLink:hover::after {
+	width: 100%;
+}
