@@ -1,0 +1,55 @@
+.row {
+	margin-bottom: 2vh;
+}
+
+.projectCard {
+	position: relative;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.card-title, .card-subtitle, .card-text {
+    color: #000;
+    font-weight: bold;
+}
+.card-link {
+    color: yellow;
+}
+.card-link:hover {
+    color: white;
+}
+
+.projectLink {
+	width: 200px;
+	border-radius: 75px;
+	margin-bottom: 2vh;
+	background-color: #007bff;
+	color: #fff;
+	position: relative;
+	transition: all .35s;
+}
+
+.projectLink span {
+	position: relative;
+	z-index: 2;
+}
+
+.projectLink::after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: linear-gradient(-45deg, white, yellow, white);
+	border-radius: 75px;
+	transition: all .4s ease-in-out;
+}
+
+.projectLink:hover {
+	color: black;
+}
+.projectLink:hover::after {
+	width: 100%;
+}
