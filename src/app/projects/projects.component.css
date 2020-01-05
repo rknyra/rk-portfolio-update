@@ -136,3 +136,19 @@
     max-width: 1140px;
 }
 }
+@media (min-width: 576px) and (max-width: 1023px){
+.container-fluid {
+    max-width: 600px;
+}
+}
+@media (width: 1024px){
+	.container-fluid {
+		max-width: 863px;
+}
+}
+
+@media (width: 411px){
+	.container-fluid {
+		max-width: 242px;
+}
+}
