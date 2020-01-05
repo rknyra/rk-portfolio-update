@@ -49,12 +49,19 @@ img {
 @media (width: 1024px){
 	.row {
 		display: inline-block;
-		justify-content: center;
+		/* justify-content: center; */
 	}
-	.abtImgs img, .abtContent {
-	    padding: 0px;
-		align-self: center;
-		height: 100vh;
+	.abtImgs img {
+	   	height: 100vh;
 		width: 100vw;
+	}
+	.abtContent{
+		margin: auto;
+		height: auto;
+		flex-direction: 0, 0,80%;
+		max-width: 80%;
+	}
+	.abtContent p {
+		text-align: center;
 	}
 	}
