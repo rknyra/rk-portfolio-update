@@ -22,7 +22,7 @@ img {
 	line-height: 1.5;
 	font-family: 'Sriracha', cursive;
 	font-size: 16px;
-	/* overflow-y: scroll; */
+	overflow-y: auto;
 }
 
 .skillSet {

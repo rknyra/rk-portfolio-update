@@ -1,12 +1,10 @@
 .projects {
 	position: relative;
-
 }
 .row {
 	margin-bottom: 2vh;
 	/* position: absolute; */
 }
-
 
 .projectCard {
 	/* position: relative; */
@@ -61,33 +59,25 @@
 	width: 100%;
 }
 
-.col12 {
-	display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
 .col3 {
 	border-radius: 10px;
 	background-size: cover;
-
 }
 .outterColumn {
-	/* position: relative; */
-	/* margin-bottom: 245px; */
+	position: relative;
+	margin-bottom: 245px;
 	border-radius: 10px;
 	float: left;
 }
 .projectColumn {
-	/* position: absolute; */
+	position: absolute;
 	width: 245px;
 	height: 245px;
 	border-radius: 10px;
 }
 
  .projectContent {
-	/* position: absolute; */
+	position: absolute;
 	width: 100%;
 	height: 100%;
 	border-radius: 10px;
@@ -117,22 +107,3 @@
    color: white;
    transform: rotateY( 180deg );
  }
-
- @media (min-width: 992px){
-	.col-lg-3 {
-		flex: 0 0 5%;
-		max-width: 25%;
-	}
- }
- @media (min-width: 576px){
- .col-sm-3 {
-	 flex: 0 0 5%;
-	 max-width: initial;
- } 
-}
-
-@media (min-width: 1200px){
-.container-fluid {
-    max-width: 1140px;
-}
-}
