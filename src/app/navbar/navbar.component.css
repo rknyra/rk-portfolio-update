@@ -17,30 +17,40 @@
 }
 
 .navbar-nav a {
-    margin: 0 14px;
+    margin: 0 2px;
     color: #fff;
-    font-size: 4vh;
+    font-size: 20px;
     text-decoration: none;
-    font-family: 'Sriracha', cursive;
+    font-family: 'Fira Sans', sans-serif;
 }
 
-.nav-item:hover .fas {
+.navbar-nav a:hover {
+    /* font-family: 'Sriracha', cursive; */
+    color: black;
+}
+
+.fas {
+    font-size: 17px;
+    display: none;
+}
+
+/* .nav-item:hover .fas {
     font-size: 0px;
     transition: all 1s ease;
-}
+} */
 
-.toggleOnHover:hover::after {
+/* .toggleOnHover:hover::after {
     content: attr(data-hover);
     font-size: 21px;
     color: #333;
-}
+} */
 
 .toggleOnHover {
     background-image: linear-gradient(yellow, yellow), linear-gradient(#007bff, #007bff);
-    background-size: 0 1px, auto;
+    background-size: 0 2px, auto;
     background-repeat: no-repeat;
     background-position: center bottom;
-    transition: all .7s ease-out;
+    transition: all .5s ease-out;
 }
 
 .toggleOnHover:hover {
