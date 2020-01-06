@@ -31,6 +31,12 @@ img {
 	justify-content: center;
 }
 
+.skillsSubtitle {
+	transform: rotate(-90deg);
+	margin: 2px;
+	padding: 2px;
+}
+
 .card {
 	width: 7.5rem;
 	border: none;
