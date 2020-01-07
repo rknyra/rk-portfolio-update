@@ -3,4 +3,11 @@
 html {
     scroll-behavior: smooth;
     font-family: 'Sriracha', cursive;
+    margin-top: 14vh;
+}
+.home {
+    padding-top: 70px;
+}
+.about, .projects, .contact {
+    padding-top: 200px;
 }

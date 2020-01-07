@@ -1,4 +1,4 @@
-<div class="container-fluid home">
+<div id="home" class="container-fluid home">
 
     <div class="row justify-content-center intro">
         <div class="text-center align-self-center">
@@ -6,7 +6,7 @@
             <p> I'm Rhoda Kimanga (RK Nyra), a full-stack software developer. </p>
             <p> I'm passionate about creating solutions and fun-spaces using technology. </p>
             <p> I do what I love and I love what I do! </p>
-            <a routerLink="/about" href="/about" class="btn btn-primary seeMore" style="vertical-align:middle"><span>See More... </span></a>
+            <a href="#about" class="btn btn-primary seeMore" style="vertical-align:middle"><span>See More... </span></a>
 
         </div>
     </div>
@@ -29,10 +29,11 @@
 
 </div> 
 
-<app-about> </app-about>
 
-<app-projects> </app-projects>
+<app-about id="about"> </app-about>
 
-<app-blog> </app-blog> 
+<app-projects id="projects"> </app-projects>
 
-<app-contact> </app-contact>
+<app-blog id="blog"> </app-blog> 
+
+<app-contact id="contact"> </app-contact>
