@@ -22,7 +22,14 @@ img {
 	line-height: 1.5;
 	font-family: 'Sriracha', cursive;
 	font-size: 16px;
-	overflow-y: auto;
+	/* overflow-y: auto; */
+}
+
+.abtContent::-webkit-scrollbar {
+	background-color: #007bff;
+	border-radius: 50px;
+	width: 10px;
+
 }
 
 .skillSet {

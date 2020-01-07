@@ -5,9 +5,13 @@ html {
     font-family: 'Sriracha', cursive;
     margin-top: 14vh;
 }
+
 .home {
     padding-top: 70px;
 }
-.about, .projects, .contact {
-    padding-top: 200px;
+.about {
+    padding-top: 170px;
+}
+.projects, .techTalks, .contact {
+    padding-top: 100px;
 }
