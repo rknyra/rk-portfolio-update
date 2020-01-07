@@ -21,7 +21,7 @@ img {
 	margin-top: 2vh;
 	line-height: 1.5;
 	font-family: 'Sriracha', cursive;
-	font-size: 16px;
+	font-size: 20px;
 	/* overflow-y: auto; */
 }
 
@@ -32,10 +32,16 @@ img {
 
 }
 
+.abtContent span {
+	font-weight: bolder;
+	border-bottom: solid 2px yellow;
+}
+
 .skillSet {
 	display: inline-flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	font-size: 17px;
 }
 
 .skillsSubtitle {
