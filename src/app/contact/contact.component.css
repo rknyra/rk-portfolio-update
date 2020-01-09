@@ -1,14 +1,22 @@
 .contact {
     font-family: 'Sriracha', cursive;
-}
+    }
 
 .jumbotron {
     width: 100%;
+    height: 470px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(src/assets/images/portfolipic2.jpeg);
-    background-size: cover;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7)), url(src/assets/images/Rk4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.socialLinks {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 i {
@@ -23,6 +31,18 @@ a {
 a:hover {
     color: #007bff;
 }
+
+.telnmail:hover .fas {
+    font-size: 0px;
+    color: #007bff;
+    transition: all 1s ease;
+}
+
+.telnmail:hover::after {
+    content: attr(data-hover);
+    font-size: 17px;
+    color: #007bff;
+} 
 
 #contact input[type="text"], 
 #contact input[type="email"], 

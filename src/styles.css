@@ -7,11 +7,15 @@ html {
 }
 
 .home {
-    padding-top: 70px;
+    padding-top: 50px;
 }
 .about {
     padding-top: 170px;
 }
-.projects, .techTalks, .contact {
+.projects, .techTalks {
+    padding-top: 90px;
+}
+
+.contact {
     padding-top: 100px;
 }

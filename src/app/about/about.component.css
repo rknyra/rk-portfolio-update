@@ -9,6 +9,7 @@
 	padding: 0px;
 	align-self: center;
 	height: 100vh;
+	margin-bottom: 5vh;
 }
 
 img {
@@ -19,22 +20,33 @@ img {
 .abtContent {
 	height: 100vh;
 	margin-top: 2vh;
-	line-height: 1.5;
+	padding-left: 50px;
 	font-family: 'Sriracha', cursive;
 	font-size: 20px;
-	/* overflow-y: auto; */
+	line-height: 1.7;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .abtContent::-webkit-scrollbar {
-	background-color: #007bff;
+	background-color: #c1c5c9;
 	border-radius: 50px;
 	width: 10px;
-
+}
+h1 {
+	border-bottom: solid 3px yellow;
 }
 
 .abtContent span {
 	font-weight: bolder;
 	border-bottom: solid 2px yellow;
+}
+
+.techSkills {
+	max-width: 84vw;
+	padding-top: 30px;
+	font-family: 'Sriracha', cursive;
 }
 
 .skillSet {
