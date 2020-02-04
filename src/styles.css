@@ -3,14 +3,12 @@
 html {
     scroll-behavior: smooth;
     font-family: 'Sriracha', cursive;
-    margin-top: 14vh;
+    margin-top: 5vh;
+    overflow-x: hidden;
 }
 
-.home {
-    padding-top: 50px;
-}
 .about {
-    padding-top: 170px;
+    margin-top: 100px;
 }
 .projects, .techTalks {
     padding-top: 90px;
@@ -18,4 +16,20 @@ html {
 
 .contact {
     padding-top: 100px;
+}
+
+@media(width:360px) {
+    .home{
+        margin-top: 30px;
+    }
+    .avatar {
+        height: 175px;
+        width: 175px;
+    }
+}
+
+@media(width:375px) {
+    .home{
+    margin-top: 25px;
+    }
 }

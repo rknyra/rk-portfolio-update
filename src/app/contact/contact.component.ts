@@ -15,5 +15,9 @@ export class ContactComponent implements OnInit {
   ngOnInit() {
    
   }
+  submitForm() {
+    const contactData = 'Hi $this.name, of $this.email}, and $this.message';
+    alert(contactData);
+  }
 
 }
