@@ -1,13 +1,12 @@
-.about {
-	background-image: url();
-}
 .card {
 	width: 7.5rem;
 	border: none;
+	margin: 30px;
 }
+
 .skillIcon {
-	max-width: 3rem;
-	max-height: 3rem;
+	max-width: 4rem;
+	max-height: 4rem;
 	align-self: center;
 }
 
@@ -15,14 +14,3 @@
 	padding-top: 1rem;
 	text-align: center;
 }
-
-@media (width: 1024px){
-	.row {
-		display: inline-block;
-		/* justify-content: center; */
-	}
-	.abtImgs img {
-	   	height: 100vh;
-		width: 100vw;
-	}
-	}
