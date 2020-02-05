@@ -1,7 +1,5 @@
 .navbar {
     overflow: hidden;
-    position: fixed;
-    top: 0;
     width: 100%;
 }
 .navbar-dark {
@@ -31,7 +29,6 @@
 }
 
 .navbar-nav a:hover {
-    /* font-family: 'Sriracha', cursive; */
     color: #FAFF00;
 }
 

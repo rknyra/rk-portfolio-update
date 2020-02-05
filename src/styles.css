@@ -8,12 +8,13 @@ html {
     overflow: hidden; */
 }
 
-
 .about {
     margin-top: 100px;
+    padding-top: 120px;
+
 }
 .projects, .techTalks {
-    padding-top: 90px;
+    padding-top: 100px;
 }
 
 .contact {

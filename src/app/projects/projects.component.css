@@ -6,32 +6,31 @@
 
 .row {
 	margin-bottom: 2vh;
-	/* position: absolute; */
+	width: 100vw;
 }
 
 .projectCard {
-	/* position: relative; */
-    background-size: cover;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.3)), url(src/assets/images/NHIF-hnm2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
     color: #fff;
 	text-align: center;
 	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
+
 .card-title, .card-subtitle, .card-text {
-    color: #000;
-    font-weight: bold;
-}
-.card-link {
-    color: yellow;
-}
-.card-link:hover {
-    color: white;
+	color: #000;
+	font-size: medium;
 }
 
 .projectLink {
 	width: 100px;
 	border-radius: 75px;
-	margin-bottom: 2vh;
 	background-color: #007bff;
 	color: #fff;
 	position: relative;
@@ -62,33 +61,25 @@
 	width: 100%;
 }
 
-.col12 {
+/* .col12 {
 	display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-}
+} */
 
-.col3 {
-	border-radius: 10px;
-	background-size: cover;
-
-}
 .outterColumn {
-	/* position: relative; */
-	/* margin-bottom: 245px; */
 	border-radius: 10px;
 	float: left;
 }
+
 .projectColumn {
-	/* position: absolute; */
-	width: 245px;
-	height: 245px;
+	width: 300px;
+	height: 300px;
 	border-radius: 10px;
 }
 
  .projectContent {
-	/* position: absolute; */
 	width: 100%;
 	height: 100%;
 	border-radius: 10px;
@@ -118,11 +109,14 @@
    color: white;
    transform: rotateY( 180deg );
  }
+ .frontText, .backText {
+	 align-self: flex-end;
+ }
 
  @media (min-width: 992px){
 	.col-lg-3 {
 		flex: 0 0 5%;
-		max-width: 25%;
+		max-width: 33.333%;
 	}
  }
  @media (min-width: 576px){
