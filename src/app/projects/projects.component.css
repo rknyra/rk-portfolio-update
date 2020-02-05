@@ -30,7 +30,7 @@
 .projectLink {
 	width: 100px;
 	border-radius: 75px;
-	background-color: #007bff;
+	background-color: #333;
 	color: #fff;
 	position: relative;
 	transition: all .35s;
@@ -38,7 +38,7 @@
 
 .projectLink span {
 	position: relative;
-	z-index: 2;
+	z-index: 1;
 }
 
 .projectLink::after {
@@ -48,13 +48,13 @@
 	left: 0;
 	width: 0;
 	height: 100%;
-	background: linear-gradient(-45deg, white, yellow, white);
+	background: #007bff;
 	border-radius: 75px;
 	transition: all .4s ease-in-out;
 }
 
 .projectLink:hover {
-	color: black;
+	color: white;
 }
 .projectLink:hover::after {
 	width: 100%;

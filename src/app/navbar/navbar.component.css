@@ -3,7 +3,7 @@
     width: 100%;
 }
 .navbar-dark {
-    background-color: #000300 !important;
+    background-color: #333333 !important;
 }
 
 .logo {
@@ -29,7 +29,7 @@
 }
 
 .navbar-nav a:hover {
-    color: #FAFF00;
+    color: #007bff;
 }
 
 .fas {
@@ -38,7 +38,7 @@
 }
 
 .toggleOnHover {
-    background-image: linear-gradient(yellow, yellow), linear-gradient(#000300, #000300);
+    background-image: linear-gradient(#007bff, #007bff);
     background-size: 0 2px, auto;
     background-repeat: no-repeat;
     background-position: center bottom;

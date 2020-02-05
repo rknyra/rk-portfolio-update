@@ -1,8 +1,9 @@
 .contact {
     font-family: 'Philosopher', sans-serif;
+    margin-bottom: 10vh;
 }
 
-.jumbotron {
+/* .jumbotron {
     width: 100%;
     height: 470px;
     display: flex;
@@ -11,16 +12,24 @@
     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7)), url(src/assets/images/Rk4.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-}
+} */
 
 .socialLinks {
+    height: 300px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7)), url(src/assets/images/Rk4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #E7E7E7;
+    justify-content: center;
+    align-items: center;
 }
 
 i {
-    font-size: 27px;
+    font-size: 33px;
     margin-right: 10px;
 }
 
@@ -40,11 +49,16 @@ a:hover {
 
 .telnmail:hover::after {
     content: attr(data-hover);
-    font-size: 17px;
+    font-size: 24px;
     color: #007bff;
 } 
 
-#contact input[type="text"], 
+.mail {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* #contact input[type="text"], 
 #contact input[type="email"], 
 #contact textarea, 
 #contact button[type="submit"] { 
@@ -82,7 +96,7 @@ fieldset {
 #contact input[type="email"]:hover, 
 #contact textarea:hover {
 	transition:border-color 0.3s ease-in-out;
-	border-bottom: 2px solid yellow;
+	border-bottom: 2px solid #007bff;
 }
 
 #contact textarea {
@@ -106,7 +120,7 @@ fieldset {
 
 #contact button[type="submit"]:hover {
     background-color: #007bff;
-    color: black;
+    color: white;
 	transition:background-color 0.7s ease-in-out;
 }
 
@@ -120,4 +134,4 @@ fieldset {
 }
 fieldset ::placeholder {
     color: #333;
-}
+} */

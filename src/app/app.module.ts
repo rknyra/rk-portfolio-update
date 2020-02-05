@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { FormsModule } from '@angular/forms';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -14,6 +15,7 @@ import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { ContactComponent } from './contact/contact.component';
     AppRoutingModule,
     NgbModule,
     MDBBootstrapModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
