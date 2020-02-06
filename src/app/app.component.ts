@@ -22,13 +22,13 @@ export class AppComponent {
         debounceDelay: 50, 
         throttleDelay: 99, 
         
-        offset: 450,
+        offset: 120,
         delay: 0,
         duration: 400,
         easing: 'ease', 
-        once: true, 
+        once: false, 
         mirror: false,
-        anchorPlacement: 'bottom-center',
+        anchorPlacement: 'top-bottom',
       }
     );
    }
