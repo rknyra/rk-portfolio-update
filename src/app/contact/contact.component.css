@@ -49,7 +49,7 @@ a:hover {
 
 .telnmail:hover::after {
     content: attr(data-hover);
-    font-size: 24px;
+    font-size: 22px;
     color: #007bff;
 } 
 
@@ -57,6 +57,7 @@ a:hover {
     margin-top: 0;
     margin-bottom: 1rem;
 }
+
 
 /* #contact input[type="text"], 
 #contact input[type="email"], 
