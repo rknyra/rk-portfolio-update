@@ -8,6 +8,13 @@ html {
     /* font-family: 'Quicksand', sans-serif; */
     font-family: 'Philosopher', sans-serif;
     margin-top: 10vh;
+    overflow-x: hidden;
+}
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -27,6 +34,7 @@ html {
 @media(width:360px) {
     .home{
         margin-top: 30px;
+        overflow-x: hidden;
     }
     .avatar {
         height: 175px;
@@ -37,7 +45,6 @@ html {
 @media(width:375px) {
     .home{
     margin-top: 25px;
+    overflow-x: hidden;
     }
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
